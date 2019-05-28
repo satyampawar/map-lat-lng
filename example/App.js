@@ -24,7 +24,7 @@ class App extends React.Component {
         <MapLatLong
           height="250px"
           width="340px"
-          accessKey="AIzaSyDziu4CcEucqfpx6hv3pUyiWmQqhScogIw"
+          accessKey="xxxxxxxxxxxxxxxxx"
           renderToggleIcon="<i className='fa fa-globe'></i>"
           getOnChange={(latitude,longitude) => this.handleChange(latitude,longitude)} >
           <div>
