@@ -27,6 +27,8 @@
     "jsdom": "13.2.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-scripts": "3.0.1",
+    "scriptjs": "^2.5.9",
     "webpack": "4.29.4",
     "webpack-cli": "3.2.3",
     "webpack-dev-server": "3.1.14"
