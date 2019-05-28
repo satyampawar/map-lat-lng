@@ -1,0 +1,46 @@
+{
+  "name": "map-lat-lng",
+  "version": "1.0.0",
+  "description": "It's simple component that will be use for render map with the help of getting lat and long into chidern text element",
+  "main": "lib/MapLatLong.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satyampawar/map-lat-lng.git"
+  },
+  "author": "satyam pawar",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "7.3.3",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "babel-jest": "^24.7.1",
+    "babel-loader": "8.0.5",
+    "jest": "^24.7.1",
+    "jsdom": "13.2.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "4.29.4",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "dev": "webpack-dev-server --mode=development --port 3000 --inline --hot --config example/webpack.config",
+    "test": "jest"
+  },
+  "keywords": [
+    "map",
+    "latitude",
+    "logitude",
+    "in",
+    "text"
+  ]
+}
