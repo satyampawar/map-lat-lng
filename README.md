@@ -5,10 +5,10 @@ It's simple component that will be use for render map with the help of getting l
 
 ## Install
 
-'npm install map-lat-lng'
+'npm install map-lat-long'
 
 ## Usage basic
-import MapLatLong from 'map-lat-lmg'
+import MapLatLong from 'map-lat-long'
 
 
  <MapLatLong
