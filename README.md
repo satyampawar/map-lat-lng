@@ -26,9 +26,15 @@ class TestComponent extends Component {
 		    renderToggleIcon="<i className='fa fa-globe'></i>"
 		    getOnChange={(latitude,longitude) => console.log(latitude,longitude)} >
 			    <div>
-			    	><label>latitude</label><input type="text"  name="latitude" /</div>
-			     <div><label>longitude</label><input type="text"  name="longitude" />
+			    	<label>latitude</label>
+			    	<input type="text"  name="latitude" />
+			    </div>
+			     <div>
+			     	<label>longitude</label>
+			     	<input type="text"  name="longitude" />
 			    </div>    
+			  {/* here childern element you can use your own element here with class and extra element but name must be latitude and longitude for input element
+			   */}
   		</MapLatLong>
     )
   }
