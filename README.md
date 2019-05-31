@@ -1,4 +1,4 @@
-# map-lat-lng
+# map-lat-long
 
 
 It's simple component that will be use for render map with the help of getting lat and long into chidern text element
@@ -33,7 +33,8 @@ class TestComponent extends Component {
 			     	<label>longitude</label>
 			     	<input type="text"  name="longitude" />
 			    </div>    
-			  {/* here childern element you can use your own element here with class and extra element but name must be latitude and longitude for input element
+			  {/* here childern element you can use your own elements
+			    with class and extra elements like label whatever but name must be latitude and longitude for there inputs elements
 			   */}
   		</MapLatLong>
     )
