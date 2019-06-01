@@ -65,4 +65,4 @@ after getting cords you can toggled map
 
 
 ## License
-[MIT]
+[MIT] (c) Satyam pawar 2019.
